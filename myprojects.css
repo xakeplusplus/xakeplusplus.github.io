@@ -3,6 +3,35 @@ body {
     user-select: none;
 }
 
+.homebutton {
+    text-align: center;
+    font-family: Oxygen;
+    position: absolute;
+    top: 6%;
+    left: 5%;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #60a89c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+
+
+    font-size: 15px;
+    transition: width 0.65s, height 0.65s, transform 0.65s, font-size 0.80s, background-color 0.65s;
+}
+
+.homebutton:hover {
+    background-color: #538179;
+    color: whitesmoke;
+    transition: width 0.65s, height 0.65s, transform 0.65s, font-size 0.80s, background-color 0.65s;
+    font-size: 18px;
+}
+
+
 .spaghetticlient {
     position: absolute;
     font-family: Cabin;
