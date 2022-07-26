@@ -1,0 +1,55 @@
+body {
+    background-color: #20423c;
+
+}
+
+.mpart {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.checkOutMyProjects {
+    font-family: Montserrat;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.projectButton {
+    text-align: center;
+    font-family: Oxygen;
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #60a89c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+
+    width: 25%;
+    height: 40%;
+
+    font-size: 15px;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.projectButton:hover {
+    width: 35%;
+    height: 50%;
+
+    background-color: #538179;
+    color: whitesmoke;
+    transition: width 1s, height 1s, transform 1s;
+    font-size: 18px;
+}
+
+.projectButton  {
+    color: white;
+}
