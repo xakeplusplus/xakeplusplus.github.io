@@ -37,7 +37,7 @@ body {
     height: 40%;
 
     font-size: 15px;
-    transition: width 1s, height 1s, transform 1s;
+    transition: width 0.65s, height 0.65s, transform 0.65s;
 }
 
 .projectButton:hover {
@@ -46,7 +46,7 @@ body {
 
     background-color: #538179;
     color: whitesmoke;
-    transition: width 1s, height 1s, transform 1s;
+    transition: width 0.65s, height 0.65s, transform 0.65s;
     font-size: 18px;
 }
 
