@@ -1,0 +1,112 @@
+body {
+    background-color: #20423c;
+    user-select: none;
+}
+
+.spaghetticlient {
+    position: absolute;
+    font-family: Cabin;
+    width: 320px;
+    height: 200px;
+
+    top: 30%;
+    left: 20%;
+
+    outline-color: whitesmoke;
+    outline: auto;
+    transition: width 0.65s, height 0.65s, transform 0.65s;
+
+    background-position: left top;
+    background-repeat: repeat;
+    border-radius: 10px;
+}
+
+.spaghetticlient:hover {
+    width: 420px;
+    height: 300px;
+    outline-color: whitesmoke;
+    background-color: #428a7d;
+    transition: width 0.65s, height 0.65s, transform 0.65s;
+    outline: auto;
+}
+
+
+.spaghetticlient:hover .spaghettimsg {
+    font-size: 50px;
+    transition: width 0.65s, height 0.65s, transform 0.65s, font-size 0.80s;
+}
+
+.spaghetticlient:hover .spaghettidesc {
+    font-size: 28px;
+    transition: width 0.65s, height 0.65s, transform 0.65s, font-size 0.80s;
+}
+
+.spaghettimsg {
+    margin-left: 6%;
+    margin-top: 6%;
+    font-size: 35px;
+    color: rgb(168, 168, 168);
+}
+
+.spaghettidesc {
+    margin-left: 6%;
+    margin-top: 6%;
+    font-size: 23px;
+    color: rgb(168, 168, 168);
+}
+
+
+
+
+.owogrinder {
+    position: absolute;
+
+    font-family: Cabin;
+    width: 320px;
+    height: 200px;
+
+    top: 30%;
+    right: 20%;
+
+    outline-color: whitesmoke;
+    outline: auto;
+    transition: width 0.65s, height 0.65s, transform 0.65s;
+
+    background-position: left top;
+    background-repeat: repeat;
+    border-radius: 10px;
+}
+
+.owogrinder:hover {
+    width: 420px;
+    height: 300px;
+    outline-color: whitesmoke;
+    background-color: #428a7d;
+    transition: width 0.65s, height 0.65s, transform 0.65s;
+    outline: auto;
+}
+
+
+.owogrinder:hover .owomsg {
+    font-size: 50px;
+    transition: width 0.65s, height 0.65s, transform 0.65s, font-size 0.80s;
+}
+
+.owogrinder:hover .owodesc {
+    font-size: 28px;
+    transition: width 0.65s, height 0.65s, transform 0.65s, font-size 0.80s;
+}
+
+.owomsg {
+    margin-left: 4%;
+    margin-top: 6%;
+    font-size: 35px;
+    color: rgb(168, 168, 168);
+}
+
+.owodesc {
+    margin-left: 6%;
+    margin-top: 6%;
+    font-size: 23px;
+    color: rgb(168, 168, 168);
+}
