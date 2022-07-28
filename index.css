@@ -1,3 +1,17 @@
+@media only screen and (max-width: 601px){
+    .card {
+        width: 89.9%;
+    }
+    .row {
+            display: block;
+    }
+}
+@media only screen and (max-width: 400px){
+    body {
+        font-size: 0.9em;
+    }
+}
+
 body {
     background-color: #20423c;
     user-select: none;
